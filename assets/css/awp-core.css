@@ -1,0 +1,269 @@
+/*--------------------------- 
+Add Plugin Front-End CSS here 
+---------------------------*/
+/*---------------------------
+CSS Gradients
+---------------------------*/
+.gr-bloody-mary {
+background: #FF512F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.gr-rose-water {
+background: #E55D87;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.gr-horizon {
+background: #003973;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E5E5BE, #003973);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.gr-intuitive-purple {
+background: #DA22FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.gr-sport-red {
+background: #e52d27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.gr-ocean-beach {
+background: #108dc7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ef8e38, #108dc7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ef8e38, #108dc7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*--------------------------- 
+Responsive CSS here 
+*
+*   Remember these queries are a good start
+*   but media queries go much deeper than this.
+*
+---------------------------*/
+/*
+Medium/Large Screens 
+*/
+@media only screen and (max-width: 1430px) {
+    
+}
+/*
+Medium Screens 
+*/
+@media only screen and (max-width: 1280px) {
+    
+}
+/*
+Large Tablet Screens 
+*/
+@media only screen and (max-width: 980px) {
+    
+}
+/*
+Medium Tablet Screens 
+*/
+@media only screen and (max-width: 768px) {
+
+}
+/*
+Small Tablet/Largest Phone Screens 
+*/
+@media only screen and (max-width: 600px) {
+    
+}
+/*
+Large Phone Screens 
+*/
+@media only screen and (max-width: 420px) {
+    
+}
+/*
+Medium Phone Screens 
+*/
+@media only screen and (max-width: 380px) {
+    
+}
+/*
+Small Phone / Apple Watch Screens 
+*/
+@media only screen and (max-width: 320px) {
+    
+}
+
+/* checkout page aspire payment box css */
+.aspire-payment ul.navbar-nav.mr-auto {
+    display: flex;
+    list-style-type: none;
+    color: #87888c;
+    padding: 0;
+    background-color: #f8f9fa!important;
+}
+.aspire-payment a {
+    text-decoration: none;
+}
+.aspire-payment .page-container nav .nav-link {
+    color: #87878f !important;
+    padding: 0 20px 0 20px !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px !important;
+    position: relative;
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aspire-payment .dropdown-menu{
+	display: none;
+}
+.aspire-payment .open .dropdown-menu{
+	display: grid;
+	z-index: 999;
+    position: absolute;
+    background: #f8f9fa;
+    padding: 5px;
+    box-shadow: 0 0 6px 1px #ccc;
+    font-size: 15px;
+}
+.aspire-payment form.form-inline.my-2.my-lg-0 {
+    margin-left: 70px;
+}
+.aspire-payment input.form-control.mr-sm-2 {
+    padding: 0px 10px;
+}
+.aspire-payment button.btn.btn-outline-success.my-2.my-sm-0 {
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+.aspire-payment .blue-btn {
+    background: #3ab2ca !important;
+    border: 1px solid #3ab2ca;
+    color: #ffff;
+    padding: 6px 15px;
+    border-radius: 4px;
+    font-family: "RobotoMedium";
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.aspire-payment button.btn.btn-outline-info {
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+.aspire-payment .row {
+    display: flex;
+}
+.aspire-payment .col-md-4.box-wrap.d-flex.psp_div {
+    width: 33%;
+}
+.aspire-payment form.form-inline.my-2.my-lg-0 {
+    display: none;
+}
+.aspire-payment .col-md-4.box-wrap.d-flex.psp_div {
+    box-shadow: 0px 0px 0px #3ab2ca;
+    margin: 5px;
+}
+.aspire-payment .page-content-area .page-content-header h3 {
+    margin: 0;
+    font-family: "RobotoBold";
+    font-size: 21px;
+    color: #002050;
+}
+.aspire-payment .page-content-area {
+    background-color: #fff;
+    box-shadow: 0 0 10px #3c3a3a;
+    min-height: 500px;
+    margin: 20px;
+    padding: 15px;
+}
+.aspire-payment a.navbar-brand {
+    display: none;
+}
+.aspire-payment button.navbar-toggler {
+    display: none;
+}
+.aspire-payment .content-area.clearfix {
+    padding: 0px;
+}
+.awp_pay {
+    background: #3ab2ca;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid #3ab2ca;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+img#procashier_logo {
+    width: 200px;
+    height: 80px;
+    max-height: 80px;
+}
+li.wc_payment_method.payment_method_procashier {
+    margin-top: -10%;
+    width: 60%;
+    list-style: none;
+    padding-left: 15px;
+}
+.payment_box {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+    margin: 1em 0;
+    font-size: .92em;
+    border-radius: 2px;
+    line-height: 1.5;
+    background-color: #dfdcde;
+    color: #515151;
+}
+.payment_method_procashier label {
+    padding-left: 15px;
+}
+.form-row.place-order {
+    padding: 20px 20px !important;
+}
+.payment_method_awp img {
+    width:150px !important;
+    max-height: 55px !important;
+}
+div#Aspire_Payment {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 5%;
+}
+input.awp_close {
+    color: #fff;
+    background: #000;
+    border: 1px solid #fff;
+}
+.payment_method_awp img {
+	background: #12195f;
+    padding: 5px !important;
+}
+@media only screen and (max-width: 824px) and(min-width:768px) {
+   .aspire-payment ul.navbar-nav.mr-auto {
+        display: block;
+    }
+    .aspire-payment .page-container nav .nav-link {
+	    padding: 0 15px 0 15px !important;
+	    font-size: 14px !important;
+	}
+}
+@media only screen and (max-width: 786px) {
+    .aspire-payment .row {
+	    display: block;
+	}
+	.aspire-payment .col-md-4.box-wrap.d-flex.psp_div {
+	    width: 100%;
+	}
+}
